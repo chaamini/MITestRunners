@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "23c14b4b-adc1-47c2-a6b8-488f5d7ac0df",
 		"name": "Devry_TestScore",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "20922221"
 	},
 	"item": [
@@ -51,10 +51,18 @@
 			"request": {
 				"auth": {
 					"type": "apikey",
-					"apikey": {
-						"value": "eyJraWQiOiJnYXRld2F5X2NlcnRpZmljYXRlX2FsaWFzIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIyZTc1ZGNiNy0wZTU1LTRiZGYtODRkNC0zMTE3ZDNmN2M1ODVAY2FyYm9uLnN1cGVyIiwiYXVkIjoiY2hvcmVvOmRlcGxveW1lbnQ6c2FuZGJveCIsImlzcyI6Imh0dHBzOlwvXC9zdHMuY2hvcmVvLmRldjo0NDNcL2FwaVwvYW1cL3B1Ymxpc2hlclwvdjJcL2FwaXNcL2ludGVybmFsLWtleSIsImtleXR5cGUiOiJTQU5EQk9YIiwic3Vic2NyaWJlZEFQSXMiOlt7InN1YnNjcmliZXJUZW5hbnREb21haW4iOm51bGwsIm5hbWUiOiJiYW5uZXItdG8tc2ZkYy10ZXN0LXNjb3JlIC0gQmFubmVyVG9TRkRDVGVzdFNjb3Jlc1NlcnZpY2UiLCJjb250ZXh0IjoiXC8zOTI1ZjcxZC04ZWEwLTQzNzEtOTAyYy0wYjdiZWU2OWZlMTRcL3N0YW5kYWxvbmUtaW50ZWdyYXRpb25cL2Jhbm5lci10by1zZmRjLXRlc3Qtc2NvcmVcL3YxLjAiLCJwdWJsaXNoZXIiOiJjaG9yZW9fcHJvZF9hcGltX2FkbWluIiwidmVyc2lvbiI6InYxLjAiLCJzdWJzY3JpcHRpb25UaWVyIjpudWxsfV0sImV4cCI6MTczMDcyNzI1OCwidG9rZW5fdHlwZSI6IkludGVybmFsS2V5IiwiaWF0IjoxNzMwNzI2NjU4LCJqdGkiOiI4MjE0YmYxZi1jOGFmLTRkNWEtYTk0ZS1jYTE3MmZhMjNjOGUifQ.euRG2rz-6q223Nw5ogxosvBYjjRUuIe8MXhCzOEPdBIugo_wC3U2VhtfHRCuleTlsb7pdWp96sZIAzTFCqazsslVUOehFiepcQYJ_PRR_O-jyPWy9zFEIuzJrWpLeYXzq0tHXWfEW0i6nukG8fcvfGkhHKshO5UCVsHkywZ3gGnZph9OyXD9umg5KGdQvoPSPkpEYlZEIoNvn9bkiWi-Vs7FS7M2IHMqnqk4EjH9HNNP9m4Vpdz4jvOjDIlu0rWtiuEWbHollbpOENze_ql9KZqgZ5WiczJ884yIIo6krVCnFN-i4vhf9y0Lx7l4f605gX1Qhn0GadOwTOgRJDPCNso6KQkZ72gg5YeqI4IrSNmuoBQWxsrK-eFxUmUQBoZY8I_98Arkg6Fm-jzllZ2segcn5wVQvXco2jgyVxsfSukBnx0jFBzqb0e4WIaUfAF68nJokAqVazeyBoGn8jFnLO9qLa1K1BHUg-iRYYOu2VxtQ1GHiW4cW4mScKmi0GKsnLgHVlRhEyarq_T1eKdD_0jWJClqppFXgwUdn1R-4EwCmjBsfGyCGkay4y8sOLYeCii4z_cx6wdVXlAaiItyc4DtoEONKo6039vErrDX4RaZaArVOu-Ssvzwkq1mw0BctJ5gM4f9n7TSGU3sKcDoe6Z2ltABhO59lGJcDmkIxeA",
-						"key": "api-key"
-					}
+					"apikey": [
+						{
+							"key": "value",
+							"value": "eyJraWQiOiJnYXRld2F5X2NlcnRpZmljYXRlX2FsaWFzIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIyZTc1ZGNiNy0wZTU1LTRiZGYtODRkNC0zMTE3ZDNmN2M1ODVAY2FyYm9uLnN1cGVyIiwiYXVkIjoiY2hvcmVvOmRlcGxveW1lbnQ6c2FuZGJveCIsImlzcyI6Imh0dHBzOlwvXC9zdHMuY2hvcmVvLmRldjo0NDNcL2FwaVwvYW1cL3B1Ymxpc2hlclwvdjJcL2FwaXNcL2ludGVybmFsLWtleSIsImtleXR5cGUiOiJTQU5EQk9YIiwic3Vic2NyaWJlZEFQSXMiOlt7InN1YnNjcmliZXJUZW5hbnREb21haW4iOm51bGwsIm5hbWUiOiJiYW5uZXItdG8tc2ZkYy10ZXN0LXNjb3JlIC0gQmFubmVyVG9TRkRDVGVzdFNjb3Jlc1NlcnZpY2UiLCJjb250ZXh0IjoiXC8zOTI1ZjcxZC04ZWEwLTQzNzEtOTAyYy0wYjdiZWU2OWZlMTRcL3N0YW5kYWxvbmUtaW50ZWdyYXRpb25cL2Jhbm5lci10by1zZmRjLXRlc3Qtc2NvcmVcL3YxLjAiLCJwdWJsaXNoZXIiOiJjaG9yZW9fcHJvZF9hcGltX2FkbWluIiwidmVyc2lvbiI6InYxLjAiLCJzdWJzY3JpcHRpb25UaWVyIjpudWxsfV0sImV4cCI6MTczMDcyODI3NSwidG9rZW5fdHlwZSI6IkludGVybmFsS2V5IiwiaWF0IjoxNzMwNzI3Njc1LCJqdGkiOiJiNzMzMTc3Ny1mZWIxLTQzOTctYTJlMy1mNTkyZjk2MDA0M2EifQ.ZVFOF7fxD6D7dLnzWVZRXSRW4ga_fCdTq_LYBRjmpmAC1TSYPineaT27h_v_Cf6OFjJJEB43-2sjNhEjx0TGDpMqU6Z856HvHQOEuGF3yPIKEEOXe7wJGN0vo0MWGWb99vzb-P2GpA4uDNXKbNFJBt35sAT3SlxtD1dyWfhJhg9Z99rJtPP8ADjrHv6sDY5a9CVOnX-b1aXYJOgwQW-rFZnsF6hZUonpY9O-AgB_HcbZjTn94T9Ex0fz6v9M6z8jktL45VELC1UuIsv6iFMZ74iNDpmX4ZYikPL54lzOOaVw0LlhkNQ-GdO75lJ7hcAGb76Nb8j6KuBmky0iyktRkgxMZnfZ4IDOy0LMkfCyBzUwXjLGK28zXWDamusMC7veRYiKYhjWshpFN721xTFLe0Pg-DgZvTFnkNwH5sAKhfR1LTK1NETdYdX-AUPsg8g82E7-V4BhRcD7jAts0LSopP5plQQaSEBH57bazzQYmqWjB6oxx14wls2f80olhSILhR80ddXDLF6BSROewEAXTh9oIK1EJW3QAld0c2F1bW6AJAbncLho9Ohafe5qXW0vAqvdWbXHzrSEvue7BUCP21zVWjlnhLiLlzRchHUfaCHTniqMZ5nVg4urqXulKKJDMOvD1D4NBXL8P4X7d_8mX_GgU5LbzCkSptPH_yv2Xlw",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "api-key",
+							"type": "string"
+						}
+					]
 				},
 				"method": "POST",
 				"header": [],
@@ -67,7 +75,24 @@
 						}
 					}
 				},
-				"url": "https://3925f71d-8ea0-4371-902c-0b7bee69fe14-dev.dv.dvy.choreoapis.dev/standalone-integration/banner-to-sfdc-test-score/v1.0/services/DVU_BannerToSFDCTestScoresAQ"
+				"url": {
+					"raw": "https://3925f71d-8ea0-4371-902c-0b7bee69fe14-dev.dv.dvy.choreoapis.dev/standalone-integration/banner-to-sfdc-test-score/v1.0/services/DVU_BannerToSFDCTestScoresAQ",
+					"protocol": "https",
+					"host": [
+						"3925f71d-8ea0-4371-902c-0b7bee69fe14-dev",
+						"dv",
+						"dvy",
+						"choreoapis",
+						"dev"
+					],
+					"path": [
+						"standalone-integration",
+						"banner-to-sfdc-test-score",
+						"v1.0",
+						"services",
+						"DVU_BannerToSFDCTestScoresAQ"
+					]
+				}
 			},
 			"response": []
 		},
@@ -115,10 +140,18 @@
 			"request": {
 				"auth": {
 					"type": "apikey",
-					"apikey": {
-						"value": "eyJraWQiOiJnYXRld2F5X2NlcnRpZmljYXRlX2FsaWFzIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIyZTc1ZGNiNy0wZTU1LTRiZGYtODRkNC0zMTE3ZDNmN2M1ODVAY2FyYm9uLnN1cGVyIiwiYXVkIjoiY2hvcmVvOmRlcGxveW1lbnQ6c2FuZGJveCIsImlzcyI6Imh0dHBzOlwvXC9zdHMuY2hvcmVvLmRldjo0NDNcL2FwaVwvYW1cL3B1Ymxpc2hlclwvdjJcL2FwaXNcL2ludGVybmFsLWtleSIsImtleXR5cGUiOiJTQU5EQk9YIiwic3Vic2NyaWJlZEFQSXMiOlt7InN1YnNjcmliZXJUZW5hbnREb21haW4iOm51bGwsIm5hbWUiOiJiYW5uZXItdG8tc2ZkYy10ZXN0LXNjb3JlIC0gQmFubmVyVG9TRkRDVGVzdFNjb3Jlc1NlcnZpY2UiLCJjb250ZXh0IjoiXC8zOTI1ZjcxZC04ZWEwLTQzNzEtOTAyYy0wYjdiZWU2OWZlMTRcL3N0YW5kYWxvbmUtaW50ZWdyYXRpb25cL2Jhbm5lci10by1zZmRjLXRlc3Qtc2NvcmVcL3YxLjAiLCJwdWJsaXNoZXIiOiJjaG9yZW9fcHJvZF9hcGltX2FkbWluIiwidmVyc2lvbiI6InYxLjAiLCJzdWJzY3JpcHRpb25UaWVyIjpudWxsfV0sImV4cCI6MTczMDcyNzI1OCwidG9rZW5fdHlwZSI6IkludGVybmFsS2V5IiwiaWF0IjoxNzMwNzI2NjU4LCJqdGkiOiI4MjE0YmYxZi1jOGFmLTRkNWEtYTk0ZS1jYTE3MmZhMjNjOGUifQ.euRG2rz-6q223Nw5ogxosvBYjjRUuIe8MXhCzOEPdBIugo_wC3U2VhtfHRCuleTlsb7pdWp96sZIAzTFCqazsslVUOehFiepcQYJ_PRR_O-jyPWy9zFEIuzJrWpLeYXzq0tHXWfEW0i6nukG8fcvfGkhHKshO5UCVsHkywZ3gGnZph9OyXD9umg5KGdQvoPSPkpEYlZEIoNvn9bkiWi-Vs7FS7M2IHMqnqk4EjH9HNNP9m4Vpdz4jvOjDIlu0rWtiuEWbHollbpOENze_ql9KZqgZ5WiczJ884yIIo6krVCnFN-i4vhf9y0Lx7l4f605gX1Qhn0GadOwTOgRJDPCNso6KQkZ72gg5YeqI4IrSNmuoBQWxsrK-eFxUmUQBoZY8I_98Arkg6Fm-jzllZ2segcn5wVQvXco2jgyVxsfSukBnx0jFBzqb0e4WIaUfAF68nJokAqVazeyBoGn8jFnLO9qLa1K1BHUg-iRYYOu2VxtQ1GHiW4cW4mScKmi0GKsnLgHVlRhEyarq_T1eKdD_0jWJClqppFXgwUdn1R-4EwCmjBsfGyCGkay4y8sOLYeCii4z_cx6wdVXlAaiItyc4DtoEONKo6039vErrDX4RaZaArVOu-Ssvzwkq1mw0BctJ5gM4f9n7TSGU3sKcDoe6Z2ltABhO59lGJcDmkIxeA",
-						"key": "api-key"
-					}
+					"apikey": [
+						{
+							"key": "value",
+							"value": "eyJraWQiOiJnYXRld2F5X2NlcnRpZmljYXRlX2FsaWFzIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIyZTc1ZGNiNy0wZTU1LTRiZGYtODRkNC0zMTE3ZDNmN2M1ODVAY2FyYm9uLnN1cGVyIiwiYXVkIjoiY2hvcmVvOmRlcGxveW1lbnQ6c2FuZGJveCIsImlzcyI6Imh0dHBzOlwvXC9zdHMuY2hvcmVvLmRldjo0NDNcL2FwaVwvYW1cL3B1Ymxpc2hlclwvdjJcL2FwaXNcL2ludGVybmFsLWtleSIsImtleXR5cGUiOiJTQU5EQk9YIiwic3Vic2NyaWJlZEFQSXMiOlt7InN1YnNjcmliZXJUZW5hbnREb21haW4iOm51bGwsIm5hbWUiOiJiYW5uZXItdG8tc2ZkYy10ZXN0LXNjb3JlIC0gQmFubmVyVG9TRkRDVGVzdFNjb3Jlc1NlcnZpY2UiLCJjb250ZXh0IjoiXC8zOTI1ZjcxZC04ZWEwLTQzNzEtOTAyYy0wYjdiZWU2OWZlMTRcL3N0YW5kYWxvbmUtaW50ZWdyYXRpb25cL2Jhbm5lci10by1zZmRjLXRlc3Qtc2NvcmVcL3YxLjAiLCJwdWJsaXNoZXIiOiJjaG9yZW9fcHJvZF9hcGltX2FkbWluIiwidmVyc2lvbiI6InYxLjAiLCJzdWJzY3JpcHRpb25UaWVyIjpudWxsfV0sImV4cCI6MTczMDcyODI3NSwidG9rZW5fdHlwZSI6IkludGVybmFsS2V5IiwiaWF0IjoxNzMwNzI3Njc1LCJqdGkiOiJiNzMzMTc3Ny1mZWIxLTQzOTctYTJlMy1mNTkyZjk2MDA0M2EifQ.ZVFOF7fxD6D7dLnzWVZRXSRW4ga_fCdTq_LYBRjmpmAC1TSYPineaT27h_v_Cf6OFjJJEB43-2sjNhEjx0TGDpMqU6Z856HvHQOEuGF3yPIKEEOXe7wJGN0vo0MWGWb99vzb-P2GpA4uDNXKbNFJBt35sAT3SlxtD1dyWfhJhg9Z99rJtPP8ADjrHv6sDY5a9CVOnX-b1aXYJOgwQW-rFZnsF6hZUonpY9O-AgB_HcbZjTn94T9Ex0fz6v9M6z8jktL45VELC1UuIsv6iFMZ74iNDpmX4ZYikPL54lzOOaVw0LlhkNQ-GdO75lJ7hcAGb76Nb8j6KuBmky0iyktRkgxMZnfZ4IDOy0LMkfCyBzUwXjLGK28zXWDamusMC7veRYiKYhjWshpFN721xTFLe0Pg-DgZvTFnkNwH5sAKhfR1LTK1NETdYdX-AUPsg8g82E7-V4BhRcD7jAts0LSopP5plQQaSEBH57bazzQYmqWjB6oxx14wls2f80olhSILhR80ddXDLF6BSROewEAXTh9oIK1EJW3QAld0c2F1bW6AJAbncLho9Ohafe5qXW0vAqvdWbXHzrSEvue7BUCP21zVWjlnhLiLlzRchHUfaCHTniqMZ5nVg4urqXulKKJDMOvD1D4NBXL8P4X7d_8mX_GgU5LbzCkSptPH_yv2Xlw",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "api-key",
+							"type": "string"
+						}
+					]
 				},
 				"method": "POST",
 				"header": [],
@@ -131,7 +164,24 @@
 						}
 					}
 				},
-				"url": "https://3925f71d-8ea0-4371-902c-0b7bee69fe14-dev.dv.dvy.choreoapis.dev/standalone-integration/banner-to-sfdc-test-score/v1.0/services/DVU_BannerToSFDCTestScoresAQ"
+				"url": {
+					"raw": "https://3925f71d-8ea0-4371-902c-0b7bee69fe14-dev.dv.dvy.choreoapis.dev/standalone-integration/banner-to-sfdc-test-score/v1.0/services/DVU_BannerToSFDCTestScoresAQ",
+					"protocol": "https",
+					"host": [
+						"3925f71d-8ea0-4371-902c-0b7bee69fe14-dev",
+						"dv",
+						"dvy",
+						"choreoapis",
+						"dev"
+					],
+					"path": [
+						"standalone-integration",
+						"banner-to-sfdc-test-score",
+						"v1.0",
+						"services",
+						"DVU_BannerToSFDCTestScoresAQ"
+					]
+				}
 			},
 			"response": []
 		},
@@ -186,10 +236,18 @@
 			"request": {
 				"auth": {
 					"type": "apikey",
-					"apikey": {
-						"value": "eyJraWQiOiJnYXRld2F5X2NlcnRpZmljYXRlX2FsaWFzIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIyZTc1ZGNiNy0wZTU1LTRiZGYtODRkNC0zMTE3ZDNmN2M1ODVAY2FyYm9uLnN1cGVyIiwiYXVkIjoiY2hvcmVvOmRlcGxveW1lbnQ6c2FuZGJveCIsImlzcyI6Imh0dHBzOlwvXC9zdHMuY2hvcmVvLmRldjo0NDNcL2FwaVwvYW1cL3B1Ymxpc2hlclwvdjJcL2FwaXNcL2ludGVybmFsLWtleSIsImtleXR5cGUiOiJTQU5EQk9YIiwic3Vic2NyaWJlZEFQSXMiOlt7InN1YnNjcmliZXJUZW5hbnREb21haW4iOm51bGwsIm5hbWUiOiJiYW5uZXItdG8tc2ZkYy10ZXN0LXNjb3JlIC0gQmFubmVyVG9TRkRDVGVzdFNjb3Jlc1NlcnZpY2UiLCJjb250ZXh0IjoiXC8zOTI1ZjcxZC04ZWEwLTQzNzEtOTAyYy0wYjdiZWU2OWZlMTRcL3N0YW5kYWxvbmUtaW50ZWdyYXRpb25cL2Jhbm5lci10by1zZmRjLXRlc3Qtc2NvcmVcL3YxLjAiLCJwdWJsaXNoZXIiOiJjaG9yZW9fcHJvZF9hcGltX2FkbWluIiwidmVyc2lvbiI6InYxLjAiLCJzdWJzY3JpcHRpb25UaWVyIjpudWxsfV0sImV4cCI6MTczMDcyNzI1OCwidG9rZW5fdHlwZSI6IkludGVybmFsS2V5IiwiaWF0IjoxNzMwNzI2NjU4LCJqdGkiOiI4MjE0YmYxZi1jOGFmLTRkNWEtYTk0ZS1jYTE3MmZhMjNjOGUifQ.euRG2rz-6q223Nw5ogxosvBYjjRUuIe8MXhCzOEPdBIugo_wC3U2VhtfHRCuleTlsb7pdWp96sZIAzTFCqazsslVUOehFiepcQYJ_PRR_O-jyPWy9zFEIuzJrWpLeYXzq0tHXWfEW0i6nukG8fcvfGkhHKshO5UCVsHkywZ3gGnZph9OyXD9umg5KGdQvoPSPkpEYlZEIoNvn9bkiWi-Vs7FS7M2IHMqnqk4EjH9HNNP9m4Vpdz4jvOjDIlu0rWtiuEWbHollbpOENze_ql9KZqgZ5WiczJ884yIIo6krVCnFN-i4vhf9y0Lx7l4f605gX1Qhn0GadOwTOgRJDPCNso6KQkZ72gg5YeqI4IrSNmuoBQWxsrK-eFxUmUQBoZY8I_98Arkg6Fm-jzllZ2segcn5wVQvXco2jgyVxsfSukBnx0jFBzqb0e4WIaUfAF68nJokAqVazeyBoGn8jFnLO9qLa1K1BHUg-iRYYOu2VxtQ1GHiW4cW4mScKmi0GKsnLgHVlRhEyarq_T1eKdD_0jWJClqppFXgwUdn1R-4EwCmjBsfGyCGkay4y8sOLYeCii4z_cx6wdVXlAaiItyc4DtoEONKo6039vErrDX4RaZaArVOu-Ssvzwkq1mw0BctJ5gM4f9n7TSGU3sKcDoe6Z2ltABhO59lGJcDmkIxeA",
-						"key": "api-key"
-					}
+					"apikey": [
+						{
+							"key": "value",
+							"value": "eyJraWQiOiJnYXRld2F5X2NlcnRpZmljYXRlX2FsaWFzIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIyZTc1ZGNiNy0wZTU1LTRiZGYtODRkNC0zMTE3ZDNmN2M1ODVAY2FyYm9uLnN1cGVyIiwiYXVkIjoiY2hvcmVvOmRlcGxveW1lbnQ6c2FuZGJveCIsImlzcyI6Imh0dHBzOlwvXC9zdHMuY2hvcmVvLmRldjo0NDNcL2FwaVwvYW1cL3B1Ymxpc2hlclwvdjJcL2FwaXNcL2ludGVybmFsLWtleSIsImtleXR5cGUiOiJTQU5EQk9YIiwic3Vic2NyaWJlZEFQSXMiOlt7InN1YnNjcmliZXJUZW5hbnREb21haW4iOm51bGwsIm5hbWUiOiJiYW5uZXItdG8tc2ZkYy10ZXN0LXNjb3JlIC0gQmFubmVyVG9TRkRDVGVzdFNjb3Jlc1NlcnZpY2UiLCJjb250ZXh0IjoiXC8zOTI1ZjcxZC04ZWEwLTQzNzEtOTAyYy0wYjdiZWU2OWZlMTRcL3N0YW5kYWxvbmUtaW50ZWdyYXRpb25cL2Jhbm5lci10by1zZmRjLXRlc3Qtc2NvcmVcL3YxLjAiLCJwdWJsaXNoZXIiOiJjaG9yZW9fcHJvZF9hcGltX2FkbWluIiwidmVyc2lvbiI6InYxLjAiLCJzdWJzY3JpcHRpb25UaWVyIjpudWxsfV0sImV4cCI6MTczMDcyNzI1OCwidG9rZW5fdHlwZSI6IkludGVybmFsS2V5IiwiaWF0IjoxNzMwNzI2NjU4LCJqdGkiOiI4MjE0YmYxZi1jOGFmLTRkNWEtYTk0ZS1jYTE3MmZhMjNjOGUifQ.euRG2rz-6q223Nw5ogxosvBYjjRUuIe8MXhCzOEPdBIugo_wC3U2VhtfHRCuleTlsb7pdWp96sZIAzTFCqazsslVUOehFiepcQYJ_PRR_O-jyPWy9zFEIuzJrWpLeYXzq0tHXWfEW0i6nukG8fcvfGkhHKshO5UCVsHkywZ3gGnZph9OyXD9umg5KGdQvoPSPkpEYlZEIoNvn9bkiWi-Vs7FS7M2IHMqnqk4EjH9HNNP9m4Vpdz4jvOjDIlu0rWtiuEWbHollbpOENze_ql9KZqgZ5WiczJ884yIIo6krVCnFN-i4vhf9y0Lx7l4f605gX1Qhn0GadOwTOgRJDPCNso6KQkZ72gg5YeqI4IrSNmuoBQWxsrK-eFxUmUQBoZY8I_98Arkg6Fm-jzllZ2segcn5wVQvXco2jgyVxsfSukBnx0jFBzqb0e4WIaUfAF68nJokAqVazeyBoGn8jFnLO9qLa1K1BHUg-iRYYOu2VxtQ1GHiW4cW4mScKmi0GKsnLgHVlRhEyarq_T1eKdD_0jWJClqppFXgwUdn1R-4EwCmjBsfGyCGkay4y8sOLYeCii4z_cx6wdVXlAaiItyc4DtoEONKo6039vErrDX4RaZaArVOu-Ssvzwkq1mw0BctJ5gM4f9n7TSGU3sKcDoe6Z2ltABhO59lGJcDmkIxeA",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "api-key",
+							"type": "string"
+						}
+					]
 				},
 				"method": "POST",
 				"header": [],
@@ -202,7 +260,24 @@
 						}
 					}
 				},
-				"url": "https://3925f71d-8ea0-4371-902c-0b7bee69fe14-dev.dv.dvy.choreoapis.dev/standalone-integration/banner-to-sfdc-test-score/v1.0/services/DVU_BannerToSFDCTestScoresAQ"
+				"url": {
+					"raw": "https://3925f71d-8ea0-4371-902c-0b7bee69fe14-dev.dv.dvy.choreoapis.dev/standalone-integration/banner-to-sfdc-test-score/v1.0/services/DVU_BannerToSFDCTestScoresAQ",
+					"protocol": "https",
+					"host": [
+						"3925f71d-8ea0-4371-902c-0b7bee69fe14-dev",
+						"dv",
+						"dvy",
+						"choreoapis",
+						"dev"
+					],
+					"path": [
+						"standalone-integration",
+						"banner-to-sfdc-test-score",
+						"v1.0",
+						"services",
+						"DVU_BannerToSFDCTestScoresAQ"
+					]
+				}
 			},
 			"response": []
 		},
@@ -257,15 +332,43 @@
 			"request": {
 				"auth": {
 					"type": "oauth2",
-					"oauth2": {
-						"clientSecret": "CmM1W9n4i_YdHJL1dGEr352SDkHmztEWTEoNq_eIDuga",
-						"clientId": "4e_jGvtW5RrfENlvaG9k2zRM6YAa",
-						"refreshTokenUrl": "https://api.asgardeo.io/t/devryuniversity/oauth2/revoke",
-						"client_authentication": "header",
-						"accessTokenUrl": "https://api.asgardeo.io/t/devryuniversity/oauth2/token",
-						"grant_type": "client_credentials",
-						"addTokenTo": "header"
-					}
+					"oauth2": [
+						{
+							"key": "clientSecret",
+							"value": "CmM1W9n4i_YdHJL1dGEr352SDkHmztEWTEoNq_eIDuga",
+							"type": "string"
+						},
+						{
+							"key": "clientId",
+							"value": "4e_jGvtW5RrfENlvaG9k2zRM6YAa",
+							"type": "string"
+						},
+						{
+							"key": "refreshTokenUrl",
+							"value": "https://api.asgardeo.io/t/devryuniversity/oauth2/revoke",
+							"type": "string"
+						},
+						{
+							"key": "client_authentication",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://api.asgardeo.io/t/devryuniversity/oauth2/token",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
 				},
 				"method": "POST",
 				"header": [],
@@ -278,7 +381,24 @@
 						}
 					}
 				},
-				"url": "https://3925f71d-8ea0-4371-902c-0b7bee69fe14-dev.dv.dvy.choreoapis.dev/standalone-integration/banner-to-sfdc-test-score/v1.0/services/DVU_BannerToSFDCTestScoresAQ"
+				"url": {
+					"raw": "https://3925f71d-8ea0-4371-902c-0b7bee69fe14-dev.dv.dvy.choreoapis.dev/standalone-integration/banner-to-sfdc-test-score/v1.0/services/DVU_BannerToSFDCTestScoresAQ",
+					"protocol": "https",
+					"host": [
+						"3925f71d-8ea0-4371-902c-0b7bee69fe14-dev",
+						"dv",
+						"dvy",
+						"choreoapis",
+						"dev"
+					],
+					"path": [
+						"standalone-integration",
+						"banner-to-sfdc-test-score",
+						"v1.0",
+						"services",
+						"DVU_BannerToSFDCTestScoresAQ"
+					]
+				}
 			},
 			"response": []
 		}
